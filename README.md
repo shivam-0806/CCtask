@@ -59,6 +59,7 @@ Onto backend.
  - Add login/signup functionality.
  - Add a Add Location functionality but custom for each user. Like it is in Google Maps, customized Home, Work etc.
  - Include the local addition of places in my search functionality.
+ - Tried to host the app using Render + Vercel.
   
      
 
