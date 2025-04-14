@@ -1,0 +1,31 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hidden on the right */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 3;
+  }
+  
+  .sidebar.open {
+    right: 0; /* Slide in when 'open' class is added */
+  }
+  
+  button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
